@@ -1,76 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Feng's</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/bootstrap.css">  
-  <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-</head>
-<body>
-<!-- 导航 -->
-<nav class="navbar navbar-default navbar-static-top">
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Feng's</title>
+
+    <!-- Bootstrap core CSS JS JQ -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="./js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top" style="padding-top: 10px">
       <div class="container">
         <div class="navbar-header">
+          <!-- 响应式导航按钮 -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <!-- 响应式导航按钮end -->
+          <!-- <a class="navbar-brand" href="#">FYXing</a> -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px; ">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#" style="background-color: #fff">Home</a></li>
+            <li><a href="#works">Works</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            <li><a class="navbar-brand" href="#" style="font-size: 30px; font-family: STXihei; color: #333">YuXing Feng</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<!-- 导航end -->
-<div class="container">
-  <div class="jumbotron">
-    <h1>我的第一个 Bootstrap 页面</h1>
-    <p>重置窗口大小，查看响应式效果！</p> 
-  </div>
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>第一列</h3>
-      <p>学的不仅是技术，更是梦想！</p>
-      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>第二列</h3>
-      <p>学的不仅是技术，更是梦想！</p>
-      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>第三列</h3>        
-      <p>学的不仅是技术，更是梦想！</p>
-      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-    </div>
-  </div>
-</div>
+
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #fff">
+        <h1>你好，</h1>
+        <h1>我是冯昱星。</h1>
+      </div>
+
+    </div> <!-- /container -->
 
 </body>
 </html>
