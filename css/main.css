@@ -1,0 +1,20 @@
+.about-resum-left{
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+}
+
+.about-resum-work-title{
+	padding-top:5px;
+}
+
+.about-resum-degree-title{
+	padding: 5 0px;
+}
+
+.about-resum-right{
+	padding:20 0 15 0;
+}
+
+.work-padding{
+	padding: 10 0px;
+}
