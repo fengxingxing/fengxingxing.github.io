@@ -15,10 +15,15 @@
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <link href="./css/main.css" rel="stylesheet">
+
+    <!-- worksimg -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./worksimg/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="./worksimg/css/gallery-grid.css">
   </head>
-  <body>
+  <body style="background-color: #fff; padding-top: 0px;">
     <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-static-top" style="padding-top: 10px">
+    <nav class="navbar navbar-default navbar-static-top" style="padding-top: 10px; background-color: #fff;">
       <div class="container">
         <div class="navbar-header">
           <!-- 响应式导航按钮 -->
@@ -31,11 +36,11 @@
           <!-- 响应式导航按钮end -->
           <!-- <a class="navbar-brand" href="#">FYXing</a> -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px; ">
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px; font-family: Constantia,Palatino; font-size: 15px; ">
           <ul class="nav navbar-nav">
             <!-- 导航标题栏 -->
-            <li><a href="./index.html" style="background-color: #fff">Home</a></li>
-            <li class="active"><a href="./works.html">Work</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li class="active"><a href="./works.html" style="background-color: #fff; border-bottom: 1px solid #000;">Work</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <!-- 导航标题栏 -->
@@ -46,98 +51,176 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    <!-- nav end -->
 
     <!-- 内容 -->
     <div class="container">
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-color: #fff">
         <h1>你好，</h1>
         <h1>这是我的作品。</h1>
       </div>
-      <!-- 海报作品 -->
-        <div style="font-family: STXihei; font-size: 30px; color: #333; padding: 20 0 5 0px;" ><p class="text-center">海报作品</p></div>
-      <div class="row">
-      <div style="text-align: center;">
-        <div class="work-padding">
-          <img src="./pic/h1.jpg" width="500px" class="img-thumbnail">
+    <div class="container gallery-container">
+      <!-- 个人作品 -->
+      <h1>个人作品</h1>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/1.jpg">
+                        <img src="./worksimg/images/p_works/1.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/2.jpg">
+                        <img src="./worksimg/images/p_works/2.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/3.jpg">
+                        <img src="./worksimg/images/p_works/3.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/4.jpg">
+                        <img src="./worksimg/images/p_works/4.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/5.jpg">
+                        <img src="./worksimg/images/p_works/5.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/6.jpg">
+                        <img src="./worksimg/images/p_works/6.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/7.jpg">
+                        <img src="./worksimg/images/p_works/7.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/8.jpg">
+                        <img src="./worksimg/images/p_works/8.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/p_works/9.jpg">
+                        <img src="./worksimg/images/p_works/9.jpg" style="height: 250px;">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="work-padding">
-          <img src="./pic/h2.jpg" width="500px" class="img-thumbnail">
+        <!-- 海报临摹 -->
+        <h1>海报作品</h1>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/poster/1.jpg">
+                        <img src="./worksimg/images/poster/1.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/poster/2.jpg">
+                        <img src="./worksimg/images/poster/2.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/poster/3.jpg">
+                        <img src="./worksimg/images/poster/3.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/poster/4.jpg">
+                        <img src="./worksimg/images/poster/4.jpg" style="height: 250px;">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="work-padding">
-          <img src="./pic/h3.jpg" width="500px" class="img-thumbnail">
+        <!-- UI -->
+        <h1>UI作品</h1>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/UI/1.jpg">
+                        <img src="./worksimg/images/UI/1.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/UI/2.jpg">
+                        <img src="./worksimg/images/UI/2.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/UI/3.jpg">
+                        <img src="./worksimg/images/UI/3.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/UI/4.jpg">
+                        <img src="./worksimg/images/UI/4.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/UI/5.jpg">
+                        <img src="./worksimg/images/UI/5.jpg" style="height: 250px;">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="work-padding">
-          <img src="./pic/h4.jpg" width="500px" class="img-thumbnail">
+        <!-- 手绘 -->
+        <h1>手绘作品</h1>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/1.jpg">
+                        <img src="./worksimg/images/painted/1.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/2.jpg">
+                        <img src="./worksimg/images/painted/2.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/3.jpg">
+                        <img src="./worksimg/images/painted/3.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/4.jpg">
+                        <img src="./worksimg/images/painted/4.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/5.png">
+                        <img src="./worksimg/images/painted/5.png" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/6.jpg">
+                        <img src="./worksimg/images/painted/6.jpg" style="height: 250px;">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./worksimg/images/painted/7.jpg">
+                        <img src="./worksimg/images/painted/7.jpg" style="height: 250px;">
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4"></div>
-
-      </div>
-      <!-- 海报作品end -->
-      <!-- UI作品 -->
-        <div style="font-family: STXihei; font-size: 30px; color: #333; padding: 20 0 5 0px;" ><p class="text-center">UI作品</p></div>
-      <div class="row">
-      <div style="text-align: center;">
-        <div class="work-padding">
-          <img src="./pic/u1.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/u2.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/u3.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/u4.jpg" width="500px" class="img-thumbnail">
-        </div>
-      </div>
-      </div>
-      <!-- UI作品end -->
-      <!-- 手绘作品 -->
-        <div style="font-family: STXihei; font-size: 30px; color: #333; padding: 20 0 5 0px;" ><p class="text-center">手绘作品</p></div>
-      <div class="row">
-      <div style="text-align: center;">
-        <div class="work-padding">
-          <img src="./pic/s1.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/s2.png" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/s3.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/s4.jpg" width="500px" class="img-thumbnail">
-        </div>
-      </div>
-      </div>
-      <!-- 手绘作品end -->
-      <!-- 图像作品及素材 -->
-        <div style="font-family: STXihei; font-size: 30px; color: #333; padding: 20 0 5 0px;" ><p class="text-center">图像作品及素材</p></div>
-      <div class="row">
-      <div style="text-align: center;">
-        <div class="work-padding">
-          <img src="./pic/t1.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/t2.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/t3.jpg" width="500px" class="img-thumbnail">
-        </div>
-        <div class="work-padding">
-          <img src="./pic/t4.jpg" width="500px" class="img-thumbnail">
-        </div>
-      </div>
-      </div>
-      <!-- 图像作品及素材end -->
-    </div> <!-- /container -->
+    </div>
+    </div>
+    <script type="text/javascript" src="./worksimg/js/baguetteBox.min.js"></script>
+    <script type="text/javascript">
+      baguetteBox.run('.tz-gallery');
+    </script>
+    <!-- 内容 end -->
 
 
 
 <!-- footer -->
-<div class='miaov_head'>
+<div style="padding-top: 10px;">
     <iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="footer.html" width="100%"  height="auto"></iframe>
 </div>
 <!-- footer -->
